@@ -1,0 +1,101 @@
+<div class="container">
+  <div class="row">
+    <div class="col s12 m9 l10">
+
+      <div id="introduction" class="scrollspy section">
+        <h4>Introduction</h4>
+        <p>Add a dropdown list to any button. Make sure that the <code class="language-markup">data-activates</code> attribute matches the id in the <code class="language-markup">&lt;ul></code> tag. </p>
+        <p>You can add a divider with the <code class="language-markup">&lt;li class="divider">&lt;/li></code> tag. </p>
+        <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!</a>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#!">one</a></li>
+          <li><a href="#!">two</a></li>
+          <li class="divider"></li>
+          <li><a href="#!">three</a></li>
+        </ul>
+      </div>
+
+      <div id="options" class="section scrollspy">
+        <h4>Options</h4>
+        <table class="striped">
+          <thead>
+            <tr>
+                <th>Option Name</th>
+                <th>Description</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>induration</td>
+              <td>The duration of the transition enter in milliseconds. Default: 300</td>
+            </tr>
+            <tr>
+              <td>outduration</td>
+              <td>The duration of the transition out in milliseconds. Default: 225</td>
+            </tr>
+            <tr>
+              <td>constrainwidth</td>
+              <td>If true, constrainWidth to the size of the dropdown activator. Default: true</td>
+            </tr>
+            <tr>
+              <td>hover</td>
+              <td>If true, the dropdown will open on hover. Default: false</td>
+            </tr>
+            <tr>
+              <td>gutter</td>
+              <td>This defines the spacing from the aligned edge. Default: 0</td>
+            </tr>
+            <tr>
+              <td>beloworigin</td>
+              <td>If true, the dropdown will show below the activator. Default: false</td>
+            </tr>
+            <tr>
+              <td>alignment</td>
+              <td>Defines the edge the menu is aligned to. Default: 'left'</td>
+            </tr>
+            <tr>
+              <td>stoppropagation</td>
+              <td>If true, stops the event propagating from the dropdown origin click handler. Default: false</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>To use these inline you have to add them as data attributes. If you want more dynamic control, you can define them using the jQuery plugin below. </p>
+      </div>
+
+
+
+      <div id="initialization" class="section scrollspy">
+        <h4>jQuery Plugin Initialization</h4>
+        <p>Initialization for dropdowns is only necessary if you create them dynamically.</p>
+        <p>
+        You can also open dropdowns programatically, the below code will make your modal open on document ready:
+        </p>
+
+        <p>
+        You can also close dropdowns programatically:
+        </p>
+      </div>
+
+
+</div>
+
+    <!-- Table of Contents -->
+    <div class="col hide-on-small-only m3 l2">
+      <div class="toc-wrapper">
+        <div class="buysellads hide-on-small-only">
+          <!-- CarbonAds Zone Code -->
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=materializecss" id="_carbonads_js"></script>
+        </div>
+        <div style="height: 1px;">
+          <ul class="section table-of-contents">
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#options">Options</a></li>
+            <li><a href="#initialization">Initialization</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
